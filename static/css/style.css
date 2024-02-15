@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+
+.Brandlogo {
+  height: 40px;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.cycle-discount-arrow {
+  background-image: url(images/annual-arrow.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 25px;
+  background-size: 25px;
+  height: 25px;
+  top: -35px;
+  margin-left: -15px;
+}
+
+.login {
+  background-color: #29b21f !important;
+  color: #ffffff !important;
+  border-radius: 50px !important;
+  padding: 10px 25px 10px 25px !important;
+  font-size: large;
+}
+/* Navbar */
+
+/* Policy */
+
+.policy {
+  margin-top: 100px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1e0e62;
+}
+
+/* Policy */
+/* plans */
+.pricing-table td {
+  height: 50px;
+  border-bottom: 1px solid #e9eef2;
+  font-size: 14px;
+  color: #495259;
+  padding: 0;
+}
+
+.pricing-table td:nth-child(n + 2) {
+  text-align: center;
+  min-width: 100px;
+}
+table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: auto;
+  margin-bottom: 50px;
+}
+td {
+  width: 400px !important;
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.billing-cycle-wrap {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* plans */
+
+/* Footer */
+
+.socials-links {
+  text-decoration: none !important;
+  color: black !important;
+  padding: 20px;
+}
+.socials-links:hover {
+  color: #29b21f !important;
+}
+
+/* Footer */
